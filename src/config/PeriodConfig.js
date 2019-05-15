@@ -25,10 +25,12 @@ PeriodConfig = function() {
             'Quarterly': i18nManager.get('quarterly') || 'Quarterly',
             'SixMonthly': i18nManager.get('sixmonthly') || 'SixMonthly',
             'SixMonthlyApril': i18nManager.get('sixmonthly_april') || 'SixMonthly April',
+            'SixMonthlyNov': i18nManager.get('sixmonthly_nov') || 'SixMonthly November',
             'Yearly': i18nManager.get('yearly') || 'Yearly',
-            'FinancialOct': i18nManager.get('financial_oct') || 'Financial year (Start October)',
+            'FinancialApril': i18nManager.get('financial_april') || 'Financial year (Start April)',
             'FinancialJuly': i18nManager.get('financial_july') || 'Financial year (Start July)',
-            'FinancialApril': i18nManager.get('financial_april') || 'Financial year (Start April)'
+            'FinancialOct': i18nManager.get('financial_oct') || 'Financial year (Start October)',
+            'FinancialNov': i18nManager.get('financial_nov') || 'Financial year (Start November)'
         };
     };
 

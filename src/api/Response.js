@@ -653,7 +653,10 @@ Response.prototype.getIdMap = function(layout, name) {
         });
 
         responseRow.setIdCombination(idCombination);
-        idMap[idCombination.get()] = responseRow.getAt(this.getHeaderByName(name).getIndex());
+
+        if( this.getHeaderByName(name) ){
+            idMap[idCombination.get()] = responseRow.getAt(this.getHeaderByName(name).getIndex());
+        }        
     });
 
     return idMap;
